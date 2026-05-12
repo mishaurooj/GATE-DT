@@ -148,11 +148,6 @@ pip install -r requirements.txt
 }
 ```
 
----
 
-# Contact
-
-Ahmad Suleman  
-National Center for Physics, Islamabad, Pakistan
 
 Email: engineersuleman118@gmail.com
