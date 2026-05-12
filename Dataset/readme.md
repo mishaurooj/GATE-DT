@@ -247,19 +247,5 @@ print(df.head())
 
 ---
 
-# Citation
-
-```bibtex
-@article{gate_dt_2026,
-  title={Carbon-Aware Agentic Digital Twin Framework for Eco-Routing},
-  author={Suleman et al.},
-  journal={Under Review},
-  year={2026}
-}
-```
-
----
-
-# License
 
 This dataset is provided for academic and research purposes only.
