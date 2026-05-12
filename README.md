@@ -142,7 +142,7 @@ pip install -r requirements.txt
 ```bibtex
 @article{gate_dt_2026,
   title={GATE-DT++: A Consensus Agentic Digital Twin Framework for Operationally-Constrained Eco-Routing in Urban Transportation Networks},
-  author={Khan, Ajmal and Khan, Misha Urooj and Suleman, Ahmad and Kaleem, Zeeshan},
+  author={Khan, Ajmal and Khan, Misha Urooj },
   journal={IEEE},
   year={2026}
 }
@@ -150,4 +150,4 @@ pip install -r requirements.txt
 
 
 
-Email: engineersuleman118@gmail.com
+Email: mishauroojkhan@gmail.com
