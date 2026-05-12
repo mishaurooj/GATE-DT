@@ -35,110 +35,146 @@ This directory contains the processed datasets used for the GATE-DT eco-routing 
 
 ---
 
-# Quick Dataset Preview
+# Complete CSV Dataset Files
 
-## Delhi Time-Series Dataset
+## 1. `Delhi-timeseriesdataset.csv`
 
 <table>
 <tr>
-<th style="background-color:#0D47A1;color:white;">Date</th>
-<th style="background-color:#0D47A1;color:white;">Traffic Density</th>
-<th style="background-color:#0D47A1;color:white;">Average Speed</th>
-<th style="background-color:#0D47A1;color:white;">NOx</th>
-<th style="background-color:#0D47A1;color:white;">PM2.5</th>
+<th style="background-color:#0D47A1;color:white;">Column</th>
+<th style="background-color:#0D47A1;color:white;">Description</th>
 </tr>
-<tr>
-<td>2021-01-01</td>
-<td>0.82</td>
-<td>34.1</td>
-<td>58.3</td>
-<td>112.7</td>
-</tr>
-<tr>
-<td>2021-01-02</td>
-<td>0.79</td>
-<td>35.6</td>
-<td>55.8</td>
-<td>108.2</td>
-</tr>
-<tr>
-<td>2021-01-03</td>
-<td>0.88</td>
-<td>31.5</td>
-<td>61.4</td>
-<td>119.9</td>
-</tr>
+<tr><td>Date</td><td>Daily observation timestamp</td></tr>
+<tr><td>Traffic Density</td><td>Normalized congestion intensity</td></tr>
+<tr><td>Average Speed</td><td>Average network vehicle speed</td></tr>
+<tr><td>NOx</td><td>Nitrogen oxide concentration</td></tr>
+<tr><td>PM2.5</td><td>Fine particulate matter concentration</td></tr>
 </table>
+
+### Sample Records
+
+| Date       | Traffic Density | Average Speed | NOx  | PM2.5 |
+| ---------- | --------------- | ------------- | ---- | ----- |
+| 2021-01-01 | 0.82            | 34.1          | 58.3 | 112.7 |
+| 2021-01-02 | 0.79            | 35.6          | 55.8 | 108.2 |
+| 2021-01-03 | 0.88            | 31.5          | 61.4 | 119.9 |
 
 ---
 
-## Mumbai Time-Series Dataset
+## 2. `Delhigriddedmapdata.csv`
 
 <table>
 <tr>
-<th style="background-color:#1B5E20;color:white;">Date</th>
-<th style="background-color:#1B5E20;color:white;">Traffic Density</th>
-<th style="background-color:#1B5E20;color:white;">Average Speed</th>
-<th style="background-color:#1B5E20;color:white;">NOx</th>
-<th style="background-color:#1B5E20;color:white;">PM2.5</th>
+<th style="background-color:#1565C0;color:white;">Column</th>
+<th style="background-color:#1565C0;color:white;">Description</th>
 </tr>
-<tr>
-<td>2021-01-01</td>
-<td>0.91</td>
-<td>28.4</td>
-<td>66.1</td>
-<td>131.4</td>
-</tr>
-<tr>
-<td>2021-01-02</td>
-<td>0.87</td>
-<td>30.2</td>
-<td>63.7</td>
-<td>126.8</td>
-</tr>
-<tr>
-<td>2021-01-03</td>
-<td>0.93</td>
-<td>27.5</td>
-<td>68.5</td>
-<td>135.9</td>
-</tr>
+<tr><td>Grid ID</td><td>Unique spatial grid identifier</td></tr>
+<tr><td>Latitude</td><td>Grid center latitude</td></tr>
+<tr><td>Longitude</td><td>Grid center longitude</td></tr>
+<tr><td>Congestion Score</td><td>Grid-level congestion intensity</td></tr>
+<tr><td>Emission Level</td><td>Estimated environmental pollution level</td></tr>
 </table>
+
+### Sample Records
+
+| Grid ID | Latitude | Longitude | Congestion Score | Emission Level |
+| ------- | -------- | --------- | ---------------- | -------------- |
+| DL_001  | 28.6139  | 77.2090   | 0.87             | High           |
+| DL_002  | 28.6450  | 77.1870   | 0.73             | Medium         |
 
 ---
 
-## Chennai Time-Series Dataset
+## 3. `Mumbai-timeseriesdataset.csv`
 
 <table>
 <tr>
-<th style="background-color:#6A1B9A;color:white;">Date</th>
-<th style="background-color:#6A1B9A;color:white;">Traffic Density</th>
-<th style="background-color:#6A1B9A;color:white;">Average Speed</th>
-<th style="background-color:#6A1B9A;color:white;">NOx</th>
-<th style="background-color:#6A1B9A;color:white;">PM2.5</th>
+<th style="background-color:#1B5E20;color:white;">Column</th>
+<th style="background-color:#1B5E20;color:white;">Description</th>
 </tr>
-<tr>
-<td>2021-01-01</td>
-<td>0.71</td>
-<td>41.8</td>
-<td>44.3</td>
-<td>82.7</td>
-</tr>
-<tr>
-<td>2021-01-02</td>
-<td>0.69</td>
-<td>42.9</td>
-<td>42.6</td>
-<td>79.5</td>
-</tr>
-<tr>
-<td>2021-01-03</td>
-<td>0.75</td>
-<td>39.7</td>
-<td>46.2</td>
-<td>85.8</td>
-</tr>
+<tr><td>Date</td><td>Daily observation timestamp</td></tr>
+<tr><td>Traffic Density</td><td>Normalized congestion intensity</td></tr>
+<tr><td>Average Speed</td><td>Average network vehicle speed</td></tr>
+<tr><td>NOx</td><td>Nitrogen oxide concentration</td></tr>
+<tr><td>PM2.5</td><td>Fine particulate matter concentration</td></tr>
 </table>
+
+### Sample Records
+
+| Date       | Traffic Density | Average Speed | NOx  | PM2.5 |
+| ---------- | --------------- | ------------- | ---- | ----- |
+| 2021-01-01 | 0.91            | 28.4          | 66.1 | 131.4 |
+| 2021-01-02 | 0.87            | 30.2          | 63.7 | 126.8 |
+| 2021-01-03 | 0.93            | 27.5          | 68.5 | 135.9 |
+
+---
+
+## 4. `Mumbaigriddedmapdata.csv`
+
+<table>
+<tr>
+<th style="background-color:#2E7D32;color:white;">Column</th>
+<th style="background-color:#2E7D32;color:white;">Description</th>
+</tr>
+<tr><td>Grid ID</td><td>Unique spatial grid identifier</td></tr>
+<tr><td>Latitude</td><td>Grid center latitude</td></tr>
+<tr><td>Longitude</td><td>Grid center longitude</td></tr>
+<tr><td>Congestion Score</td><td>Grid-level congestion intensity</td></tr>
+<tr><td>Emission Level</td><td>Estimated environmental pollution level</td></tr>
+</table>
+
+### Sample Records
+
+| Grid ID | Latitude | Longitude | Congestion Score | Emission Level |
+| ------- | -------- | --------- | ---------------- | -------------- |
+| MB_001  | 19.0760  | 72.8777   | 0.92             | High           |
+| MB_002  | 19.1120  | 72.8560   | 0.81             | Medium         |
+
+---
+
+## 5. `Chennai-timeseriesdataset.csv`
+
+<table>
+<tr>
+<th style="background-color:#6A1B9A;color:white;">Column</th>
+<th style="background-color:#6A1B9A;color:white;">Description</th>
+</tr>
+<tr><td>Date</td><td>Daily observation timestamp</td></tr>
+<tr><td>Traffic Density</td><td>Normalized congestion intensity</td></tr>
+<tr><td>Average Speed</td><td>Average network vehicle speed</td></tr>
+<tr><td>NOx</td><td>Nitrogen oxide concentration</td></tr>
+<tr><td>PM2.5</td><td>Fine particulate matter concentration</td></tr>
+</table>
+
+### Sample Records
+
+| Date       | Traffic Density | Average Speed | NOx  | PM2.5 |
+| ---------- | --------------- | ------------- | ---- | ----- |
+| 2021-01-01 | 0.71            | 41.8          | 44.3 | 82.7  |
+| 2021-01-02 | 0.69            | 42.9          | 42.6 | 79.5  |
+| 2021-01-03 | 0.75            | 39.7          | 46.2 | 85.8  |
+
+---
+
+## 6. `Chennai-griddedmapdata.csv`
+
+<table>
+<tr>
+<th style="background-color:#8E24AA;color:white;">Column</th>
+<th style="background-color:#8E24AA;color:white;">Description</th>
+</tr>
+<tr><td>Grid ID</td><td>Unique spatial grid identifier</td></tr>
+<tr><td>Latitude</td><td>Grid center latitude</td></tr>
+<tr><td>Longitude</td><td>Grid center longitude</td></tr>
+<tr><td>Congestion Score</td><td>Grid-level congestion intensity</td></tr>
+<tr><td>Emission Level</td><td>Estimated environmental pollution level</td></tr>
+</table>
+
+### Sample Records
+
+| Grid ID | Latitude | Longitude | Congestion Score | Emission Level |
+| ------- | -------- | --------- | ---------------- | -------------- |
+| CH_001  | 13.0827  | 80.2707   | 0.68             | Medium         |
+| CH_002  | 13.0418  | 80.2341   | 0.59             | Low            |
 
 ---
 
@@ -227,4 +263,3 @@ print(df.head())
 # License
 
 This dataset is provided for academic and research purposes only.
-
