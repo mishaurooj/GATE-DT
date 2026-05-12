@@ -1,0 +1,4 @@
+city,selected_model,validation_RMSE
+Chennai,ExtraTrees,168.46390425316508
+Delhi,Ridge,666.1272790623316
+Mumbai,ExtraTrees,484.4890557432882
