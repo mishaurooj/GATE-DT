@@ -32,14 +32,6 @@ The framework combines:
 
 ---
 
-# Proposed Architecture
-
-<p align="center">
-  <img src="Figures/gate_dt_cara_architecture.png" width="95%">
-</p>
-
----
-
 # CARA Routing Workflow
 
 <p align="center">
