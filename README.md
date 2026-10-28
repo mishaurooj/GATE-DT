@@ -1,8 +1,5 @@
 # GATE-DT++: Consensus Agentic Digital Twin for Operational Eco-Routing
 
-<p align="center">
-  <img src="Figures/gate_dt_cara_architecture.png" width="100%">
-</p>
 
 <p align="center">
   <b>Operationally-constrained carbon-aware urban routing using transportation digital twins and multi-agent consensus negotiation.</b>
