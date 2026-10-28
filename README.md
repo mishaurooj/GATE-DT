@@ -124,17 +124,6 @@ cd GATE-DT
 pip install -r requirements.txt
 ```
 
----
-
-# Citation
-
-```bibtex
-@article{gate_dt_2026,
-  title={GATE-DT++: A Consensus Agentic Digital Twin Framework for Operationally-Constrained Eco-Routing in Urban Transportation Networks},
-  author={Khan, Ajmal and Khan, Misha Urooj },
-  journal={IEEE},
-  year={2026}
-}
 ```
 
 
