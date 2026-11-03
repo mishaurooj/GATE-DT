@@ -1,0 +1,4 @@
+city,paper_city,epsilon,n_matched_OD,baseline,statistic,paired_mean_pp,bootstrap_resamples,CI_95_lower_pp,CI_95_upper_pp,permutation_draws,permutation_two_sided_p,number_nonzero_differences
+Delhi,MC1,0.2,100,ShortestPath,paired_CO2_reduction_pp,50.17455196,10000,45.96803434,54.31685402,10000,9.9990001e-05,100
+Mumbai,MC2,0.2,100,ShortestPath,paired_CO2_reduction_pp,45.40317457,10000,40.66545145,50.04167109,10000,9.9990001e-05,96
+Chennai,MC3,0.2,100,ShortestPath,paired_CO2_reduction_pp,37.94905935,10000,33.44769149,42.37388859,10000,9.9990001e-05,97

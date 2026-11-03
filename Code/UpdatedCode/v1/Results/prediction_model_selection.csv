@@ -1,0 +1,4 @@
+city,selected_model,validation_RMSE,n_train,n_validation,n_test,n_features
+Delhi,LinearRegression,621.8511824,214,71,72,56
+Mumbai,ExtraTrees,475.7664351,214,71,72,56
+Chennai,ExtraTrees,160.7517323,214,71,72,56

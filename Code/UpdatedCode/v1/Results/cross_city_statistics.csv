@@ -1,0 +1,5 @@
+metric,n_cities,mean,sample_SD,CV_pct
+CO2_reduction_pct_vs_shortest_mean,3,44.50892863,6.161608902,13.84353453
+distance_penalty_pct_vs_shortest_mean,3,10.31495432,0.3497409136,3.390620092
+consensus_stability_mean,3,0.8220980782,0.01665922971,2.026428495
+operational_utility_score_mean,3,31.51279499,10.56715963,33.53291777
